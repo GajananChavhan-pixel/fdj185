@@ -9,4 +9,6 @@ public interface StudentServiceI {
 
 public List<Student> addStudent(Student s);
 public List<Student> getAllStudents();
+public List<Student> getBatchesStudent(String batchNumber);
+
 }
